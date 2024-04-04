@@ -61,7 +61,7 @@ signal.signal(signal.SIGINT, def_handler)
 def get_arguments():
     parser = argparse.ArgumentParser(description='Fast TCP Port Scanner')
     parser.add_argument("-t", "--target", dest="target", required=True, help="Victim targets IP (EX: -t 192.168.0.1)")
-    parser.add_argument("-p", "--port", dest="port", required=True,  help="Port range to scan (Ex: -p 1-100)")
+    parser.add_argument("-p", "--port", dest="port", required=True,  help="(Ex: -p 1-100 or -p22 or -p22,80,8080)")
     options = parser.parse_args()
 
 
