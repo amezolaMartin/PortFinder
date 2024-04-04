@@ -4,7 +4,7 @@ This is a fast TCP port written in Python.
 
 ## Options
 
-options:
+
   ```-h, --help            show this help message and exit```
 
   
